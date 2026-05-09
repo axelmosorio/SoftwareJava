@@ -1,1 +1,4 @@
+com\softwareinc\loginsoftware\model\Usuario.class
 com\mycompany\loginsoftware\LoginServlet.class
+com\mycompany\loginsoftware\UsuarioServlet.class
+com\softwareinc\loginsoftware\util\HibernateUtil.class

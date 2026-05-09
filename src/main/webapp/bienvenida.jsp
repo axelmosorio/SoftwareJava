@@ -56,6 +56,7 @@
                 <h1>¡Bienvenido, <%= session.getAttribute("usuarioLogueado") %>!</h1>
                 <p>Has iniciado sesión correctamente en la plataforma.</p>
             </div>
+            <a href="UsuarioServlet">Administrar Usuarios</a>
         </div>
     </body>
 </html>
