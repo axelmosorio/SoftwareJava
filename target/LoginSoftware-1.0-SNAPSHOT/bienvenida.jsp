@@ -45,6 +45,19 @@
                 background: #ff4d4d;
                 color: white;
             }
+                                                                                                                                                                                                    
+            .boton_administrar {
+                margin: 30px;
+                width: 180px;
+                height: 30px;
+                background-color: whitesmoke;
+                color: white;
+                border-radius: 8px;
+                text-decoration: none;
+                text-align: center;
+                padding: 10px;
+                border: 1px
+            }
 </style>
         <div class="navbar">
             <span><strong>Software BBC</strong> | Panel Principal</span>
@@ -55,8 +68,10 @@
             <div class="welcome-card">
                 <h1>¡Bienvenido, <%= session.getAttribute("usuarioLogueado") %>!</h1>
                 <p>Has iniciado sesión correctamente en la plataforma.</p>
+                <div class="boton_administrar">
+                <a href="UsuarioServlet">Administrar Usuarios</a>
+                </div>
             </div>
-            <a href="UsuarioServlet">Administrar Usuarios</a>
         </div>
     </body>
 </html>
